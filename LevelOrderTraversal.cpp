@@ -2,7 +2,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-struct node{
+struct node{                                 //Instead of using struct, you can use class also (use public, private according to our needs)//
 int data;
 struct node *left, *right;
 node(int val){

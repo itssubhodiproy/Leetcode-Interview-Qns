@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int main()
 {
     int n;
@@ -10,23 +9,21 @@ int main()
     {
         cin >> arr[i];
     }
-    int maxcount = 1;
-
-    for (int i = 0; i < n - 1; i++)
+    int maxcount = INT_MIN;
+    for (int i = 0; i < n; i++)
     {
         int maxi = arr[i];
         int count = 1;
-        for (int j = i + 1; j < n; j++)
+        for (int j = i; j < n; j++)
         {
             if (arr[j] > maxi)
             {
-                count++;
                 maxi = arr[j];
+                count++;
             }
         }
         maxcount = max(maxcount, count);
     }
-
     cout << maxcount << endl;
     return 0;
 }

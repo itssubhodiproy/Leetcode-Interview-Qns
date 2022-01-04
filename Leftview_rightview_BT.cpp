@@ -1,82 +1,36 @@
-#include <bits/stdc++.h>
-using namespace std;
-#define ll long long int
-struct Treenode
-{
-    ll data;
-    Treenode *left;
-    Treenode *right;
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
 
-    Treenode(ll val)
-    {
-        data = val;
-        left = NULL;
-        right = NULL;
+void dfs(TreeNode* root, int level, map<int,int> &m){
+    if(!root) return;
+    
+    if(m[level]==0) m[level]=root->val;
+    
+    
+    //Just change the order here whether you need leftside view or rightside view//
+    dfs(root->right,level+1,m);
+    dfs(root->left,level+1,m);
+}
+
+class Solution {
+public:
+    vector<int> rightSideView(TreeNode* root) {
+        vector<int> v;
+        map<int,int> m;
+        dfs(root,1,m); // where 1 is our step and map will store values for each step //
+        for(auto it: m){
+            v.push_back(it.second);
+        }
+        // returning a vector//
+        return v;
     }
 };
-
-void leftview(Treenode *root, ll i, vector<ll> &v) // leftview
-{
-    if (root == NULL)
-        return;
-
-    if (v.size() == i)
-        v.push_back(root->data);
-    
-    leftview(root->left, i + 1, v);
-    leftview(root->right, i + 1, v);
-}
-
-void rightview(Treenode *root, ll i, vector<ll> &v) // rightview
-{
-    if (root == NULL)
-        return;
-
-    if (v.size() == i)
-        v.push_back(root->data);
-    
-    rightview(root->right, i + 1, v);
-    rightview(root->left, i + 1, v);
-}
-
-ll height(Treenode *root)   //finding binary tree height
-{
-
-    if (root == NULL)
-    {
-        return 0;
-    }
-    ll l = height(root->left);
-    ll r = height(root->right);
-
-    return 1 + max(l, r);
-}
-
-int main()
-{
-    struct Treenode *root = new Treenode(5);
-    root->left = new Treenode(2);
-    root->right = new Treenode(3);
-    root->left->left = new Treenode(4);
-    root->left->right = new Treenode(6);
-    root->left->right->right = new Treenode(9);
-//if we play with the v.size, then we don't need height separately//
-
-    // ll heighttree = height(root);
-    // cout << heighttree << "\n";
-    // return 0;
-
-    vector<ll> v;
-
-    // Leftview function
-    // leftview(root, 0, v);
-    rightview(root, 0, v);
-
-    for (auto it : v)
-    {
-        cout << it << " ";
-    }
-
-    cout << '\n';
-    return 0;
-}

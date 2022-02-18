@@ -16,7 +16,6 @@ int main()
         cin >> value[i];
     }
     stack<int> st;
-
     for (int i = 0; i < n; i++)
     {
         int sum1 = 0;

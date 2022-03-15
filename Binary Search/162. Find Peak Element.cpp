@@ -8,7 +8,7 @@ public:
         if(nums[0]>nums[1]) return 0;
         if(nums[n-1]>nums[n-2]) return n-1;
         
-        // main check
+        // Search towards the more promising side of the DS according to the problem statement
         int l=1;int r=n-2;
         while(l<=r){
             int mid=(l+r)/2;

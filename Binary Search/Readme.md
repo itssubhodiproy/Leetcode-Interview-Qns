@@ -4,10 +4,11 @@
   <h3>1. Twisted Binary Seach</h3>
      It's the usual binary search which uses the sorted or varieted sorted array
      <b>Similar problems:</b>
+     <br>
      <ul>
-      <li>a. 1095. Find in Mountain Array</li>
-      <li>b. 34. Find First and Last Position of Element in Sorted Array</li>
-      <li>c. 540. Single Element in a Sorted Array</li>
+      <li>1095. Find in Mountain Array</li>
+      <li>34. Find First and Last Position of Element in Sorted Array</li>
+      <li>540. Single Element in a Sorted Array</li>
   </ul>
  </p>
  <p>

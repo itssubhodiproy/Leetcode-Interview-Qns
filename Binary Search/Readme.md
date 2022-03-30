@@ -26,7 +26,7 @@
       <li>875. Koko Eating Bananas</li>
       <li>Allocate minimum number of pages</li>
   </ul>
-   
+   <p>
       <h4>2.2 Maximize the minimum </h4>
       <>
      <b>Similar problems:</b>
@@ -35,6 +35,7 @@
       <li>Agressive cows</li>
       <li>1552. Magnetic Force Between Two Balls</li>
       </ul>
+      </p>
  </p>
 
   

@@ -3,6 +3,7 @@
 <p>
   <h3>1. Twisted Binary Seach</h3>
      It's the usual binary search which uses the sorted or varieted sorted array
+     <br>
      <b>Similar problems:</b>
      <br>
      <ul>
@@ -14,20 +15,26 @@
  <p>
   <h3>2. Binary Seach on answers</h3>
      It's the trickier version of binary search which asks most of the interview and cp.
+     <br>
      There is basically two types of variation.
+     <br>
      <h4>2.1 Minimize the maximum </h4>
       <br>
      <b>Similar problems:</b>
-      a. 1283. Find the Smallest Divisor Given a Threshold
-      b. 875. Koko Eating Bananas
-      c. Allocate minimum number of pages
+     <ul>
+      <li>1283. Find the Smallest Divisor Given a Threshold</li>
+      <li>875. Koko Eating Bananas</li>
+      <li>Allocate minimum number of pages</li>
+  </ul>
       <br>
       <h4>2.2 Maximize the minimum </h4>
       <br>
      <b>Similar problems:</b>
-      a. 1817.Divide Chocolate
-      b. Agressive cows
-      c. 1552. Magnetic Force Between Two Balls
+    <ul>
+  <li>1817.Divide Chocolate</li>
+      <li>Agressive cows</li>
+      <li>1552. Magnetic Force Between Two Balls</li>
+      </ul>
  </p>
 
   

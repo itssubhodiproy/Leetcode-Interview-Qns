@@ -19,7 +19,7 @@
      There is basically two types of variation.
      <br>
      <h4>2.1 Minimize the maximum </h4>
-      <br>
+      <>
      <b>Similar problems:</b>
      <ul>
       <li>1283. Find the Smallest Divisor Given a Threshold</li>

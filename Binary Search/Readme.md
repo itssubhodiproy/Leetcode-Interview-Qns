@@ -26,7 +26,7 @@
       <li>875. Koko Eating Bananas</li>
       <li>Allocate minimum number of pages</li>
   </ul>
-      <br>
+   
       <h4>2.2 Maximize the minimum </h4>
       <>
      <b>Similar problems:</b>

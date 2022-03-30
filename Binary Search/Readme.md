@@ -28,10 +28,10 @@
   </ul>
       <br>
       <h4>2.2 Maximize the minimum </h4>
-      <br>
+      <>
      <b>Similar problems:</b>
     <ul>
-  <li>1817.Divide Chocolate</li>
+      <li>1817.Divide Chocolate</li>
       <li>Agressive cows</li>
       <li>1552. Magnetic Force Between Two Balls</li>
       </ul>

@@ -1,3 +1,13 @@
+<h2>How to identify Binary search on ans</h2>
+<p>
+     <ul>
+      <li>Minimize or maximize the answer</li>
+      <li>Every one should get atleast one of the element</li>
+      <li>Allocation should be contiguous in nature (sometimes depends)</li>
+    </ul>
+    #Note:
+    <p>Finding maximum or minimum is easy, allocation part will be bit trickkier</p>
+ </p>
 
 <h2>Basically there are 3 type of question in Binary Search</h2>
 <p>

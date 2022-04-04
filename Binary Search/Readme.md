@@ -49,8 +49,8 @@
       </ul>
       </p>
  </p>
-<b>Tricckest problem of all time<b>
-  1870. Minimum Speed to Arrive on Time
+<b>Tricckest problem of all time</b>
+ <p>1870. Minimum Speed to Arrive on Time</p>
   
   
   

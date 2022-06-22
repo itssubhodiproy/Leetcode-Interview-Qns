@@ -10,8 +10,8 @@
 - KeyWord: K would be mentioned
 
 ### Technique
-- When largest mentioned, use Min_heap (delete unnessery smaller elements from queue.top())
-- When smallest mentioned, use Max_heap (delete unnessery larger elements from queue.top())
+- When largest mentioned, use Min_heap (delete unnecessary smaller elements from queue.top())
+- When smallest mentioned, use Max_heap (delete unnecessary larger elements from queue.top())
 
 ### Initialization (C++)
 - Max-heap

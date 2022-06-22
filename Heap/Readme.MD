@@ -3,7 +3,7 @@
 
 ### Why heap exist in the first place
 - Basically we can do the same operation with sorting in O(nlogn) time.
-- Using heap we can do the same thing with O(nlogk) time.
+- Using heap we can do the same thing with O(nlogk) time (more optimized).
 
 ### Identification
 - Top, closest, smallest, largest K elements

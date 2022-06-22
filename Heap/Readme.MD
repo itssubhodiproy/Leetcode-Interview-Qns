@@ -26,7 +26,7 @@ priority_queue<int,vector<int>,greater<int>> pq;
 ### Practice questions
 - Kth largest element of an array
 - Kth smallest element of an array 
-- Kth closest elements of an given element from array
+- Kth closest elements of a given element from the array
 - Top frequent K elements of an array
 - Sort a K-sorted array
 

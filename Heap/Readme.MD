@@ -13,6 +13,16 @@
 - When largest mentioned, use Min_heap (delete unnessery smaller elements from queue.top())
 - When smallest mentioned, use Max_heap (delete unnessery larger elements from queue.top())
 
+### Initialization (C++)
+- Max-heap
+```bash
+priority_queue<int> pq;
+```
+- Min-heap
+```bash
+priority_queue<int,vector<int>,greater<int>> pq;
+```
+
 ### Practice questions
 - Kth largest element of an array
 - Kth smallest element of an array 

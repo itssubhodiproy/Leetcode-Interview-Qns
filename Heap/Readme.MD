@@ -10,8 +10,8 @@
 - KeyWord: K would be mentioned
 
 ### Technique
-- When largest use = Min_heap (delete unnessery smaller elements from queue.top())
-- When smallest use = Max_heap (delete unnessery larger elements from queue.top())
+- When largest mentioned, use = Min_heap (delete unnessery smaller elements from queue.top())
+- When smallest mentioned, use = Max_heap (delete unnessery larger elements from queue.top())
 
 ### Practice questions
 - Kth largest element of an array

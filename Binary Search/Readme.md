@@ -1,4 +1,7 @@
 # Binary Search
+## Why Binary search exist in the first place
+- We can do the same thing with O(n) time.
+- If the problem states as sorted or monotonic fashion, we can apply binary search which can do the same thing with O(Logn) time, which is more optimized. 
 Basically there are 2 types of pattern exist in Binary Search
 
 - Simple binary search

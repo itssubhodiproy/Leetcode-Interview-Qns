@@ -1,57 +1,60 @@
+# Binary Search
+Basically there are 2 types of pattern exist in Binary Search
 
-<h2>Basically there are 3 type of question in Binary Search</h2>
-<p>
-  <h3>1. Twisted Binary Seach</h3>
-     It's the usual binary search which uses the sorted or varieted sorted array
-     <br>
-     <>
-     <b>Similar problems:</b>
-     <br>
-     <ul>
-      <li>1095. Find in Mountain Array</li>
-      <li>34. Find First and Last Position of Element in Sorted Array</li>
-      <li>540. Single Element in a Sorted Array</li>
-  </ul>
- </p>
- <p>
-  <h3>2. Binary Seach on answers</h3> 
-  #Note: It's the trickier version of binary search which asks most of the interview and cp.
-  <h2>How to identify Binary search on ans</h2>
-<p>
-     <ul>
-      <li>Minimize or maximize the answer</li>
-      <li>Every one should get atleast one of the element</li>
-      <li>Allocation should be contiguous in nature (sometimes depends)</li>
-    </ul>
-    #Note:
-    <p>Finding maximum or minimum is easy, allocation part will be bit trickkier</p>
- </p>
-     <>
-     <br>
-     There is basically two types of variation.
-     <br>
-     <h4>2.1 Minimize the maximum </h4>
-      <>
-     <b>Similar problems:</b>
-     <ul>
-      <li>1283. Find the Smallest Divisor Given a Threshold</li>
-      <li>875. Koko Eating Bananas</li>
-      <li>Allocate minimum number of pages</li>
-  </ul>
-   <p>
-      <h4>2.2 Maximize the minimum </h4>
-      <>
-     <b>Similar problems:</b>
-    <ul>
-      <li>1817.Divide Chocolate</li>
-      <li>Agressive cows</li>
-      <li>1552. Magnetic Force Between Two Balls</li>
-      </ul>
-      </p>
- </p>
-<b>Tricckest problem of all time</b>
- <p>1870. Minimum Speed to Arrive on Time</p>
+- Simple binary search
+- Binary Search on Answers (monotonic property)
+
+## Simple Binary Search (Traditional)
+It's the usual binary search which can perform over the sorted or some kind of sorted array.
+
+`one Should follow this order`
+
+Some questions to build your intuion with baby steps
+- [Binary Search in sorted array](https://leetcode.com/problems/binary-search)
+- [Binary Search in reverse sorted aray](https://www.geeksforgeeks.org/search-an-element-in-a-reverse-sorted-array)
+- [Missing Number](https://leetcode.com/problems/missing-number/)
+- [Find Peak element in Mountain array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
+- [1095.Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/)
+- [34.Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+- [Google | Find the number of occurrences of an element in a sorted array](https://leetcode.com/discuss/interview-question/124724/)
+- [540.Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)
+
+### Wohh!! You Learned the most favourite topic of Google
+## Binary Search on Answers
+- It's the trickier version of binary search which asks most of the time in interview and cp.
+`one Should follow this order` 
+
+#### How to identify Binary search on answer most of the time
+
+- Minimize or maximize the answer
+- Every one should get atleast one of the element
+- Allocation should be contiguous in fashion (sometimes depends)
+- Monotonic property (After a certain point, ans will not exist)
+```bash
+ F F T T T T T T T T F F F F . . . 
+ ``` 
+
+### There is basically two types of variation.
+
+ #### Minimize the maximum 
+- [1283.Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)
+- [875.Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
+- [Allocate minimum number of pages](https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1/)
+
+#### Maximize the minimum 
+- [1817.Divide Chocolate](https://www.lintcode.com/problem/1817/)
+- [Agressive cows](https://www.spoj.com/problems/AGGRCOW/)
+- [1552.Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls/)
+
+#### Tricckest problem of all time
+- [1870.Minimum Speed to Arrive on Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time/)
   
   
-  
-  
+## Huraaahh, You're ready to crack Google
+
+### Some points
+- One should strugle with the problem/ try by your own before jumping the solution
+- Learn intuitions and patterns, not questions.
+- For more detail explanation, watch [Aditya Verma's Binary Search Playlist](https://www.youtube.com/playlist?list=PL_z_8CaSLPWeYfhtuKHj-9MpYb6XQJ_f2)
+- Practice
+

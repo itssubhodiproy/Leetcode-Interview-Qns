@@ -22,6 +22,7 @@ Some questions to build your intuion with baby steps
 ### Wohh!! You Learned the most favourite topic of Google
 ## Binary Search on Answers
 - It's the trickier version of binary search which asks most of the time in interview and cp.
+
 `one Should follow this order` 
 
 #### How to identify Binary search on answer most of the time

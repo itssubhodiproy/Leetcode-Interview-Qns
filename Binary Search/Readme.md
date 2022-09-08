@@ -60,6 +60,6 @@ Some questions to build your intuion with baby steps
 - One should strugle with the problem/ try by your own before jumping the solution
 - Learn intuitions and patterns, not questions.
 - For more detail explanation, watch [Aditya Verma's Binary Search Playlist](https://www.youtube.com/playlist?list=PL_z_8CaSLPWeYfhtuKHj-9MpYb6XQJ_f2)
-- Best article ever written over Leetcode on [Binary Search](https://leetcode.com/discuss/interview-question/1322500/5-variations-of-Binary-search-(A-Self-Note))
+- Best article ever written over Leetcode on Binary Search [Article1](https://leetcode.com/discuss/interview-question/1322500/5-variations-of-Binary-search-(A-Self-Note)) and [Article2](https://leetcode.com/discuss/study-guide/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems)
 - Practice
 
